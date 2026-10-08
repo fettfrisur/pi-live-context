@@ -18,7 +18,7 @@ This is an **implementation assignment**, not a request for further reconnaissan
 - Messages: https://github.com/earendil-works/pi/blob/main/packages/coding-agent/docs/message-types.md
 - SDK: https://github.com/earendil-works/pi/blob/main/packages/coding-agent/docs/sdk.md
 - Examples: https://github.com/earendil-works/pi/tree/main/packages/coding-agent/examples/extensions
-- Read docs/CONTEXT_AND_DESIGN.md and docs/CODEX_TASK.md in this repository before coding.
+- Read [README.md](README.md) in this repository before coding. This README and AGENTS.md are the complete initial project brief; do not depend on other specification files.
 
 Pi changed substantially in 2026. Use `@earendil-works/pi-coding-agent`, not obsolete `@mariozechner/*` examples. Verify signatures from the installed package. Do not assume a pre-2026 extension event contract.
 
@@ -84,5 +84,7 @@ Do not truncate fields silently. Huge values may be collapsed in presentation, b
 **Priority:** functional inspection > provenance/fidelity > safe editing > nice styling. A partial implementation that reports its limitations truthfully is preferable to a polished mock-up.
 
 ## How to work
+
+This repository is intentionally starting with just README.md and AGENTS.md. Create implementation files as part of the assigned coding task, not as a prerequisite to opening the Codex environment.
 
 Implement in small, reviewable commits. Do not spend the whole task writing an architecture essay or exhaustively reading Pi source. Start from the linked docs and type declarations. Inspect source only to resolve a specific API question, especially persistence and edits. Add fixtures and tests early. If blocked, leave the repo in a runnable, independently useful state, explain the blocker precisely, and propose a tested next step. Work on this repo; upstream Pi remains a dependency, not a fork.
